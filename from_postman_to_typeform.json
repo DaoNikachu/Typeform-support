@@ -1,0 +1,536 @@
+{
+    "title": "Self Evaluation Form",
+    "variables": {
+        "is_italian": 0,
+        "is_russian": 0,
+        "is_moveable": 0
+    },
+    "thankyou_screens": [
+        {
+            "ref": "notpass_tys",
+            "title": ":( Automatic output of our condition logic >> You chose an option that does not match this role's expectations",
+            "properties": {
+                "show_button": false,
+                "share_icons": false
+            }
+        },
+        {
+            "ref": "successful_tys",
+            "title": "_",
+            "properties": {
+                "redirect_url": "https://example.com",
+                "show_button": false,
+                "share_icons": false
+            }
+        }
+    ],
+    "fields": [
+        {
+            "ref": "01JGNQ2J5XB4GYXXY0YH7FZHNE",
+            "type": "multiple_choice",
+            "title": "Quanto è avanzato il tuo italiano?",
+            "properties": {
+                "choices": [
+                    {
+                        "ref": "01JGNQ2J5X2G1W3YZF3PN5TT1A",
+                        "label": "nop"
+                    },
+                    {
+                        "ref": "9a1cc8f7-4956-48c8-85cb-27fefb966fd1",
+                        "label": "base"
+                    },
+                    {
+                        "ref": "8b6f69e8-c8d7-45ff-8714-7fc1a6b05bbf",
+                        "label": "intermedio"
+                    },
+                    {
+                        "ref": "2aa59b0b-084f-4dd9-91e4-ce0565de1bbd",
+                        "label": "intermedio superiore"
+                    },
+                    {
+                        "ref": "c34bf48a-56ef-400f-a5cb-dd959e675a9d",
+                        "label": "avanzato"
+                    },
+                    {
+                        "ref": "44c59663-98e6-404e-a21e-b190cd866c0f",
+                        "label": "Livello di padronanza"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "1700afff-44cb-474e-bd63-9a2707ee427a",
+            "type": "multiple_choice",
+            "title": "\u041d\u0430\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0445\u043e\u0440\u043e\u0448\u043e \u0432\u044b \u0432\u043b\u0430\u0434\u0435\u0435\u0442\u0435 \u0440\u0443\u0441\u0441\u043a\u0438\u043c \u044f\u0437\u044b\u043a\u043e\u043c?",
+            "properties": {
+                "choices": [
+                    {
+                        "ref": "2e704758-361b-4c7b-bac3-3e77bf7369c9",
+                        "label": "nop"
+                    },
+                    {
+                        "ref": "dbecd393-2f09-4b23-a2c1-44eb3eb841e7",
+                        "label": "basic"
+                    },
+                    {
+                        "ref": "3d9005ae-30cb-49d6-8f07-b310f6db1ecf",
+                        "label": "intermediate"
+                    },
+                    {
+                        "ref": "077a775c-c221-4796-a74c-b00dbbd5baa8",
+                        "label": "upper-intermediate"
+                    },
+                    {
+                        "ref": "a6e8d076-abe3-4f1f-8752-1daa2ddacea0",
+                        "label": "advanced"
+                    },
+                    {
+                        "ref": "9934ef5b-2daf-45ed-9ecc-9397aee48946",
+                        "label": "native"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "9a795616-ec1f-427f-b305-6ad067e67744",
+            "type": "multiple_choice",
+            "title": "How advanced is your English?",
+            "properties": {
+                "choices": [
+                    {
+                        "ref": "7d1aba38-39d3-45d9-802b-900b1c5a57af",
+                        "label": "nop"
+                    },
+                    {
+                        "ref": "e268538a-d54d-454e-8001-7f4a8b3fd575",
+                        "label": "basic"
+                    },
+                    {
+                        "ref": "abd2a12a-968a-47ad-8870-d9556b9c815c",
+                        "label": "intermediate"
+                    },
+                    {
+                        "ref": "d187d9c1-2f72-496f-8456-da615c0d683a",
+                        "label": "upper-intermediate"
+                    },
+                    {
+                        "ref": "c084a0ce-55f6-4f51-b0e3-617f2a0e8731",
+                        "label": "advanced"
+                    },
+                    {
+                        "ref": "bd636b6c-6614-4a7b-aaf0-9a9c834e77fc",
+                        "label": "native"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "302ba403-2583-4ad1-b892-0aeff36190fb",
+            "type": "multiple_choice",
+            "title": "Quali strumenti di gestione dei progetti conosci?",
+            "properties": {
+                "allow_multiple_selection": true,
+                "allow_other_choice": true,
+                "choices": [
+                    {
+                        "ref": "98c65ef8-3954-496a-a0af-9675b75b5ba9",
+                        "label": "jira"
+                    },
+                    {
+                        "ref": "54679cd5-0fb4-4b74-983b-5ce1a999d8ce",
+                        "label": "click-up"
+                    },
+                    {
+                        "ref": "eced2b9a-0c94-40d3-9974-dbd0d4b97e78",
+                        "label": "trello"
+                    },
+                    {
+                        "ref": "1b0cc06a-5843-4a9e-b9e7-f8af79fa501a",
+                        "label": "youtrack"
+                    },
+                    {
+                        "ref": "6c9705a4-8958-4afc-94f0-fe4fd66d3947",
+                        "label": "Asana"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "27474fbe-cea0-4b89-9c62-2ee686587d57",
+            "type": "multiple_choice",
+            "title": "Strumenti di calendario che utilizzi.",
+            "properties": {
+                "allow_multiple_selection": true,
+                "choices": [
+                    {
+                        "ref": "ce9af025-53eb-4209-aa23-b70e46845902",
+                        "label": "calendly"
+                    },
+                    {
+                        "ref": "5ea4c7b2-4e40-4660-8fd3-d23c40096e72",
+                        "label": "round robin tools"
+                    },
+                    {
+                        "ref": "b8b4fb62-f3f8-4089-8880-ddf8327f5799",
+                        "label": "boss calendar management"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "97bf7ba6-4468-4810-995b-79a15759ccdb",
+            "type": "multiple_choice",
+            "title": "Esperienza con traduzioni durante le riunioni.",
+            "properties": {
+                "allow_multiple_selection": true,
+                "choices": [
+                    {
+                        "ref": "d851e6e1-57c1-4374-aa26-e0da527b4aa6",
+                        "label": "italian <-> russian"
+                    },
+                    {
+                        "ref": "bf4dee5e-cbfc-47d3-9152-29bc6e2b97db",
+                        "label": "english <-> italian"
+                    },
+                    {
+                        "ref": "acff5c73-3686-4dd5-bce9-9866395cfae4",
+                        "label": "nop"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "3b9d3da6-c73a-462c-b098-d8273fef8d83",
+            "type": "multiple_choice",
+            "title": "Strumenti di calendario che utilizzi.",
+            "properties": {
+                "allow_multiple_selection": true,
+                "choices": [
+                    {
+                        "ref": "3f8524fd-0e4c-43cb-bc9e-69d3a70894c9",
+                        "label": "Pianificare riunioni"
+                    },
+                    {
+                        "ref": "c2b54e1b-adb0-4f1f-90a0-ea6eff16b107",
+                        "label": "Preparare l'ordine del giorno"
+                    },
+                    {
+                        "ref": "0df28ff0-4f8c-4bf0-a07a-e16110dbbb01",
+                        "label": "Scrivere i resoconti/seguire gli sviluppi"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "f7e24f78-824c-402a-a1ed-0ff9cf48c5be",
+            "type": "multiple_choice",
+            "title": "Strumenti di collaborazione/ufficio.",
+            "properties": {
+                "allow_multiple_selection": true,
+                "allow_other_choice": true,
+                "choices": [
+                    {
+                        "ref": "b93277d4-02b7-4be1-8472-1cc4dfdd42f7",
+                        "label": "google sheets"
+                    },
+                    {
+                        "ref": "86d37319-795a-4334-b416-69d38f4a72b5",
+                        "label": "notion"
+                    },
+                    {
+                        "ref": "361a273f-35d8-4e9d-bb9f-ca33e73f4870",
+                        "label": "google docs"
+                    },
+                    {
+                        "ref": "f1326688-1f01-4ba1-9b10-41f1f7aa79e0",
+                        "label": "figma"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "3007843b-77c2-4321-9219-5c4a7abd901d",
+            "type": "multiple_choice",
+            "title": "Strumenti per riunioni online.",
+            "properties": {
+                "allow_multiple_selection": true,
+                "choices": [
+                    {
+                        "ref": "0c9ececc-11ae-4195-88ea-a6266fe790d9",
+                        "label": "google meet"
+                    },
+                    {
+                        "ref": "e9ce0be9-d5f7-4364-87ab-9c127c289a77",
+                        "label": "zoom"
+                    },
+                    {
+                        "ref": "0b959f15-cdf2-4855-a4bc-01ab48e921dc",
+                        "label": "skype"
+                    },
+                    {
+                        "ref": "1418c205-53f3-426d-aa69-2389a6ddbae6",
+                        "label": "whatsapp"
+                    },
+                    {
+                        "ref": "89562f48-27f6-4fc9-a851-94c6e802fa16",
+                        "label": "AI-transcription generation"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "f08f90c2-620d-42df-9d03-a20dde35a4d6",
+            "type": "multiple_choice",
+            "title": "Quali di queste esperienze possiedi?",
+            "properties": {
+                "allow_multiple_selection": true,
+                "choices": [
+                    {
+                        "ref": "98e53662-ce74-4e95-9ee2-463a65465872",
+                        "label": "recruter"
+                    },
+                    {
+                        "ref": "9ac44cdd-954d-456b-98a2-9479af95455b",
+                        "label": "accountant"
+                    },
+                    {
+                        "ref": "e6aa9fdf-563b-4d2d-bb29-6937b94bc23d",
+                        "label": "personal asistant"
+                    },
+                    {
+                        "ref": "ef9a39e6-c60b-41d6-a95b-4271e1fe66e3",
+                        "label": "analyst"
+                    },
+                    {
+                        "ref": "b7b0dde7-cd47-4bba-aaa5-24c62bee16d0",
+                        "label": "buyer"
+                    },
+                    {
+                        "ref": "5f3160d2-1931-4710-9dac-fe1b39239f37",
+                        "label": "lawyer"
+                    },
+                    {
+                        "ref": "69032bac-e3c2-4cb6-9755-76103292dc7a",
+                        "label": "call-center specialist"
+                    },
+                    {
+                        "ref": "8765df1d-141c-48a4-b7f3-9e97e3fa982c",
+                        "label": "support specialist"
+                    }
+                ]
+            }
+        },
+        {
+            "ref": "3efd2dc3-e212-4eef-89b9-f0bbf3307ea8",
+            "type": "short_text",
+            "title": "Luogo di residenza.",
+            "properties": {}
+        },
+        {
+            "ref": "20547658-3011-4f1f-a1b2-01974a99dfa7",
+            "type": "yes_no",
+            "title": "Sei disposto/a a trasferirti pi\u00f9 vicino a Verr\u00e8s?\\*",
+            "properties": {
+                "description": "*l'azienda rimborsa le spese di viaggio e soggiorno"
+            }
+        },
+        {
+            "ref": "eb35fd01-cccf-4689-9f13-609aa8870085",
+            "type": "short_text",
+            "title": "Nome di riferimento",
+            "properties": {
+                "description": "ad esempio, Giovanni"
+            }
+        },
+        {
+            "ref": "a2344127-0035-4e8c-aa33-292bd17c0095",
+            "type": "email",
+            "title": "Email:",
+            "properties": {}
+        }
+    ],
+    "logic": [
+        {
+            "type": "field",
+            "ref": "a2344127-0035-4e8c-aa33-292bd17c0095",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "thankyou",
+                            "value": "successful_tys"
+                        }
+                    },
+                    "condition": {
+                        "op": "and",
+                        "vars": [
+                            {
+                                "op": "equal",
+                                "vars": [
+                                    {
+                                        "type": "variable",
+                                        "value": "is_italian"
+                                    },
+                                    {
+                                        "type": "constant",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "op": "equal",
+                                "vars": [
+                                    {
+                                        "type": "variable",
+                                        "value": "is_russian"
+                                    },
+                                    {
+                                        "type": "constant",
+                                        "value": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "thankyou",
+                            "value": "notpass_tys"
+                        }
+                    },
+                    "condition": {
+                        "op": "or",
+                        "vars": [
+                            {
+                                "op": "not_equal",
+                                "vars": [
+                                    {
+                                        "type": "variable",
+                                        "value": "is_italian"
+                                    },
+                                    {
+                                        "type": "constant",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "op": "not_equal",
+                                "vars": [
+                                    {
+                                        "type": "variable",
+                                        "value": "is_russian"
+                                    },
+                                    {
+                                        "type": "constant",
+                                        "value": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "20547658-3011-4f1f-a1b2-01974a99dfa7",
+            "actions": [
+                {
+                    "action": "add",
+                    "details": {
+                        "target": {
+                            "type": "variable",
+                            "value": "is_moveable"
+                        },
+                        "value": {
+                            "type": "constant",
+                            "value": 1
+                        }
+                    },
+                    "condition": {
+                        "op": "equal",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "20547658-3011-4f1f-a1b2-01974a99dfa7"
+                            },
+                            {
+                                "type": "boolean",
+                                "value": true
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "1700afff-44cb-474e-bd63-9a2707ee427a",
+            "actions": [
+                {
+                    "action": "add",
+                    "details": {
+                        "target": {
+                            "type": "variable",
+                            "value": "is_russian"
+                        },
+                        "value": {
+                            "type": "constant",
+                            "value": 1
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "1700afff-44cb-474e-bd63-9a2707ee427a"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "9934ef5b-2daf-45ed-9ecc-9397aee48946"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "01JGNQ2J5XB4GYXXY0YH7FZHNE",
+            "actions": [
+                {
+                    "action": "add",
+                    "details": {
+                        "target": {
+                            "type": "variable",
+                            "value": "is_italian"
+                        },
+                        "value": {
+                            "type": "constant",
+                            "value": 1
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "01JGNQ2J5XB4GYXXY0YH7FZHNE"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "44c59663-98e6-404e-a21e-b190cd866c0f"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
