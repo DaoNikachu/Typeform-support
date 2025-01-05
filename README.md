@@ -1,3 +1,4 @@
+0. https://hiretechfast.typeform.com/to/OevzxRDD
 1. There is a problem with thankyou_screen. Property "redirect_url" is not working as expected. 
   How to fix it to redirect to url, when the ending is encountered?
   {
