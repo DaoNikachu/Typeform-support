@@ -1,5 +1,11 @@
-0. https://hiretechfast.typeform.com/to/OevzxRDD
-1. There is a problem with thankyou_screen. Property "redirect_url" is not working as expected. There is necessary ending, but lack of redirecting. There is no explicit error here...
+usecase: create form via api
+
+1 we sent json via api (you can find json in this repo)
+2 we see that form published https://hiretechfast.typeform.com/to/OevzxRDD
+
+3.1 we checked "redirect url" feature that we tried to set up. and we didn't see it.
+
+There is a problem with thankyou_screen. Property "redirect_url" is not working as expected. There is necessary ending, but lack of redirecting. There is no explicit error here...
   How to fix it to redirect to url, when the ending is encountered?
   {
             "ref": "successful_tys",
@@ -10,7 +16,10 @@
                 "share_icons": false
             }
         }
-2. Another issue is the block of code in logic related to adding a value to a variable. There is condition from yes_no question type, and
+
+
+
+3.2 Another issue is the block of code in logic related to adding a value to a variable. There is condition from yes_no question type, and
   I don't fully understand how to render it with specific equal condition. Postman gives an error.
   {
             "type": "field",
