@@ -11,7 +11,7 @@
             }
         }
 2. Another issue is the block of code in logic related to adding a value to a variable. There is condition from yes_no question type, and
-  I don't fully understand how to render it with specific equal condition.
+  I don't fully understand how to render it with specific equal condition. Postman gives an error.
   {
             "type": "field",
             "ref": "20547658-3011-4f1f-a1b2-01974a99dfa7",
